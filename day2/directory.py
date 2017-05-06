@@ -35,6 +35,22 @@ for x in [1,2,3,4,5]:
     squares1.append(x**2)
 print squares1
 
+#使用if语句测试字典中的键是否存在
+
+if not D.has_key('f'):
+    print 'no find'
+
+
+#元组(一旦创建，里面的值不可改变，可以做数据完整性约束）
+T=(1,2,3,4)
+print len(T)
+#元组的连接
+T=T+(5,6)
+print(T)
+
+
+
+
 
 
 
