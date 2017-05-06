@@ -23,6 +23,9 @@ print Ks
 for key in Ks:
     print key,'=>',D[key]
 
+for c in "spam":
+    print c.upper()
+
 
 
 
