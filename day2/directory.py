@@ -25,6 +25,17 @@ for key in Ks:
 
 for c in "spam":
     print c.upper()
+#迭代和优化,，使用解析表达式创建一个列表
+squares=[x**2 for x in [1,2,3,4,5]]
+print squares
+
+#等价于下面的，但是下面速度比较慢
+squares1=[]
+for x in [1,2,3,4,5]:
+    squares1.append(x**2)
+print squares1
+
+
 
 
 
