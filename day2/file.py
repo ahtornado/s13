@@ -24,8 +24,8 @@ class Worker:
         self.pay*=(1.0+percent)
 
 #类的实例创建使用
-bob=Worker('Bob Smith',50000)
-sue=Worker('sue Jone',60000)
+bob = Worker('Bob Smith',50000)
+sue = Worker('sue Jone',60000)
 print bob.lastName()
 
 print sue.lastName()
