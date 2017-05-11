@@ -6,14 +6,14 @@ database = [edward,john]
 print(database)
 print database[1]
 
-#Ê¹ÓÃimport µ¼ÈëÄ£¿é£¬º¯Êıµ÷ÓÃµÄÊ±ºòĞèÒª´øÉÏÄ£¿éÃû³Æ
+#ä½¿ç”¨import å¯¼å…¥æ¨¡å—ï¼Œå‡½æ•°è°ƒç”¨çš„æ—¶å€™éœ€è¦å¸¦ä¸Šæ¨¡å—åç§°
 import math
 print math.sqrt(4)
-#ÏÂÃæÕâÖÖ·½Ê½²»ĞèÒª´øÉÏÄ£¿éÃû³Æ
+#ä¸‹é¢è¿™ç§æ–¹å¼ä¸éœ€è¦å¸¦ä¸Šæ¨¡å—åç§°
 from string import split
 s="abc,def,ddd,123,efg"
 print split(s,',')
-#·ÖÆ¬ÌáÈ¡
+#åˆ†ç‰‡æå–
 tag = '<a href="http://www.python.org">python web site</a>'
 print tag[9:30]
 
@@ -22,7 +22,7 @@ print number[::2]
 print number[1::2]
 print number[8:2:-2]
 
-#ĞòÁĞ³Ë·¨
+#åºåˆ—ä¹˜æ³•
 #sentence = raw_input("Sentence: ")
 sentence ="Python is very good tools!"
 screen_width = 80
@@ -37,5 +37,3 @@ print ' '*left_margin+"| "+    sentence   +' |'
 print ' '*left_margin+"| "+' '*text_width +' |'
 print ' '*left_margin+"+"+'-'*(box_width-4)+'+'
 print
-
-
