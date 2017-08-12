@@ -3,16 +3,16 @@
 # Author:Alvin.xie
 import random
 retry_count = 0
-#Ëæ»ú²úÉúÒ»¸ö10ÒÔÄÚµÄÊı
+#éšæœºäº§ç”Ÿä¸€ä¸ª10ä»¥å†…çš„æ•°
 real_num =random.randrange(10)
 #while retry_count < 3:
 for i in range(3):
-    #È¥µô¿Õ¸ñºÍ»Ø³µ
+     #å»æ‰ç©ºæ ¼å’Œå›è½¦
     guess_num=raw_input("Please guess the real num: ").strip()
-    #ÅĞ¶Ï³¤¶ÈÊÇ·ñÎª 0
+    #åˆ¤æ–­é•¿åº¦æ˜¯å¦ä¸º 0
     if len(guess_num) == 0:
         continue
-    #ÅĞ¶ÏÊÇ·ñÎªÊı×Ö
+    #åˆ¤æ–­æ˜¯å¦ä¸ºæ•°å­—
     if guess_num.isdigit():
         guess_num = int(guess_num)
     else:
