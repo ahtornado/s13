@@ -2,6 +2,7 @@
 # _*_coding:utf_8_*_
 # Author:Alvin.xie
 
+import start
 # 数字
 a = 123+123
 print a
@@ -11,6 +12,9 @@ print math.sqrt(121)
 import random
 print random.random()
 print random.choice([1, 3, 5, 7, 9, 11, 13])
+
+# 调用start里面的方法，打印星号
+start.pstart()
 print "--------------------------------------------"
 # 字符串 （从索引从 “0”开始）
 s = 'spam'
