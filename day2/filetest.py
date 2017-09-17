@@ -1,6 +1,8 @@
 #!/usr/bin/env python
 # _*_coding:utf_8_*_
 # Author:Alvin.xie
+
+
 f = open('data.txt', 'w')
 f.write('hello\n')
 f.write('world\n')
