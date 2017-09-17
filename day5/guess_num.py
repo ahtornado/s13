@@ -5,7 +5,7 @@ import random
 retry_count = 0
 #随机产生一个10以内的数
 real_num =random.randrange(10)
-#while retry_count < 3:
+#while retry_count < 4:
 for i in range(3):
      #去掉空格和回车
     guess_num=raw_input("Please guess the real num: ").strip()
